@@ -30,9 +30,9 @@ LiquidCrystal_I2C lcd(0x27, 16, 2); /*
 void setup() {              // Run once, set up block
     lcd.init();             // Initialize LCD Library
     lcd.backlight();        // Initialize LCD backlight, Without it the LCD is very dark
-    
-    int delay = 50;         // Comfigure how long to delay (Miliseconds)
 }
+
+int delay = 50;             // Comfigure how long to delay (Miliseconds)
 
 void loop() {               // Loop the process
     lcd.clear();            // Clear the text
